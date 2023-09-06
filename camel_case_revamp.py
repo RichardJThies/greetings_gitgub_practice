@@ -1,3 +1,5 @@
+"""A program for convering user messages to camelcase"""
+
 def main():	
 	display_banner()
 	instructions()
