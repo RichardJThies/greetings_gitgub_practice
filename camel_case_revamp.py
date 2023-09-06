@@ -21,6 +21,7 @@ def camelcase(sentence):
 	return upper_camel_cased[0:1].lower() + upper_camel_cased[1:] 
 
 def instructions():
+	"""displays instructions to user for program"""
 	print('Enter a message and the program will convert it to camelcase.')
 
 if __name__ == '__main__':
